@@ -32,7 +32,7 @@ const moonIcon = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="21"
-    height="20"
+    height="24"
     fill="none"
     viewBox="0 0 21 20"
   >
@@ -52,7 +52,7 @@ const ThemeSwitcher = () => {
     <div className="flex mt-6 bg-white justify-center dark:bg-gray-900 rounded-3xl p-1">
       <button
         type="button"
-        aria-label="Use Dark Mode"
+        aria-label="Dark"
         onClick={() => {
           document.documentElement.classList.add('dark');
           localStorage.setItem('theme', 'dark');

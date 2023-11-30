@@ -14,4 +14,9 @@ h6 {
 
 body {
   font-family: var(--font-secondary);
+  min-height: 100vh;
+}
+
+#__next {
+  min-height: 100vh;
 }
